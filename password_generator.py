@@ -42,7 +42,7 @@ total = int(total)
 length = input('The length of the password? - ')
 length = int(length)
 
-file_path = 'list.txt'  # Path to the output file
+file_path = (file_name + '.txt')  # Path to the output file
 
 with open(file_path, 'w'):
     pass
